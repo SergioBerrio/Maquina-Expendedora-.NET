@@ -32,7 +32,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>vending_machine_snacks_beverages_drinks_technology_icon_128568.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,20 +56,52 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormApagarMaquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApagarMaquina.Designer.cs">
+      <DependentUpon>FormApagarMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComprarChucherias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComprarChucherias.Designer.cs">
+      <DependentUpon>FormComprarChucherias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIniciarSesion.Designer.cs">
+      <DependentUpon>FormIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRellenarMaquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRellenarMaquina.Designer.cs">
+      <DependentUpon>FormRellenarMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerChucherias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerChucherias.Designer.cs">
+      <DependentUpon>FormVerChucherias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VariablesEntorno.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,14 +116,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\buyhand_106610.ico" />
-    <Content Include="Resources\buy_3336.ico" />
-    <Content Include="Resources\login_icon_137429.ico" />
-    <Content Include="Resources\systemshutdown_103390.ico" />
-    <Content Include="Resources\vendingmachine_86343.ico" />
-    <Content Include="Resources\vending_machine_snacks_beverages_drinks_technology_icon_128568 %281%29.ico" />
-    <Content Include="Resources\vending_machine_snacks_beverages_drinks_technology_icon_128568.ico" />
-    <Content Include="Resources\view_search_find_9565.ico" />
+    <None Include="Resources\login_icon_137429.png" />
+    <None Include="Resources\systemshutdown_103390.png" />
+    <None Include="Resources\buyhand_106610.png" />
+    <None Include="Resources\view_search_find_9565.png" />
+    <None Include="Resources\vending_machine_snacks_beverages_drinks_technology_icon_128568.png" />
+    <Content Include="vending_machine_snacks_beverages_drinks_technology_icon_128568.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
