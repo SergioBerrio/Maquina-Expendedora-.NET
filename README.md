@@ -1,4 +1,4 @@
-# MaquinaExpendedora.NET
+# Maquina-Expendedora-.NET
 Aplicación de máquina expendedora programada en C# con .NET Framework
 
 ## Clase VariablesEntorno
