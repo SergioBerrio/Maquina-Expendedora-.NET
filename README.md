@@ -1,5 +1,5 @@
 # Maquina-Expendedora-.NET
-Aplicación de máquina expendedora programada en C# con .NET Framework
+Aplicación de máquina expendedora programada en C# con .NET Framework.
 
 ## Clase VariablesEntorno
 **ES** En esta aplicación hay una clase única que contiene todas las variables de uso necesarias, 2 arrays para nombres y precios y 2 conjuntos de variables para manejar
