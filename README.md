@@ -1,4 +1,4 @@
-# Maquina-Expendedora-.NET
+# Máquina expendedora de chucherías en C# y .NET
 
 <p align="center">
 	<img height="200" src="https://github.com/SergioBerrio/Maquina-Expendedora-.NET/blob/master/MaquinaExpendedora/Resources/vending_machine_snacks_beverages_drinks_technology_icon_128568.png" alt="Paradise Resort Hotel">
